@@ -1,0 +1,107 @@
+body{
+    
+    font-family: 'BenchNine', sans-serif;
+    font-size: x-large;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: white;
+ }
+ 
+ header {
+    background-color: #c4ffd8;
+    height:50px;
+      }
+ 
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+$text-color: #367440;
+$purple: #99ffa7;
+$dark-gray: #6c6763;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background: white;
+  border-radius: 500px;
+  border: 8px solid rgba(173, 253, 209, 0.5);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+a {
+  text-decoration: none;
+  color: $purple;
+  
+  &:hover {
+    text-decoration: underline;
+    color: lighten($purple, 5%);
+  }
+}
+
+.header {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 16px;
+  
+  
+  .login {
+    color: $purple;
+    text-transform: uppercase;
+    margin-right: 5px;
+  }
+  
+  .signup {
+    color: $dark-gray;
+    text-transform: uppercase;
+    margin-left: 5px;
+  }
+}
+
+input {
+  outline: none;
+  display: block;
+  width: 70%;
+  border: 1px solid darken(white, 15%);
+  border: none;
+  border-radius: 3px;
+  background: #f7f6f5;
+  margin: 20px auto;
+  padding: 18px 15px;   
+}
+
+input[type="submit"] {
+  width: 35%;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  background: linear-gradient(#9bd496, #88b998);
+  cursor: pointer;
+  padding: 13px 20px;
+  
+  &:hover {
+    background: linear-gradient(lighten(#af96d4, 5%), lighten(#9b88b9, 5%));
+  }
+}
+
+.help-block {
+  margin-top: -10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  font-size: 13px;
+}
+
+::-moz-placeholder {
+  font-size: 13px;
+} 
