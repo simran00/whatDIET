@@ -1,0 +1,19 @@
+body{
+    
+    font-family: 'BenchNine', sans-serif;
+    font-size: x-large;
+    background-color: white;
+    margin-left: 100px;
+ }
+ 
+ hr {
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: darkred;
+ }
+
+ 
+ #topnav-left {
+float: left; 
+}
